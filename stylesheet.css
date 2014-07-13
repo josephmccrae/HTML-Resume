@@ -1,0 +1,109 @@
+body {
+	background-image: url("linen.jpg");
+}
+
+
+
+/* Header styles */
+#header {
+    background-color: #800000;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    height: 100px;
+    margin-top: 100px; 
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+    padding: 5px 15px;
+    text-indent: 25px;
+    width: 70%;
+    
+    border-radius: 10px;
+	webkit-border-radius: 10px;
+	
+	box-shadow: 7px 7px 7px #333333;
+	webkit-box-shadow: 7px 7px 7px #333333;
+}
+
+
+#name {
+	color: #fffaf0;
+    float: left;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 2.5em;
+    letter-spacing: 8px;
+    text-align: center;
+	text-indent: 10px;
+}
+
+
+#contact {
+    color: #fffaf0;
+    float: right;
+}
+
+
+
+
+/* Main section styles */
+#main {
+	background-color: #fffaf0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	min-width: 800px;
+    padding: 5px 15px;
+    text-indent: 25px;
+    width: 70%;
+    
+	border-radius: 10px;
+	webkit-border-radius: 10px;
+	
+	box-shadow: 7px 7px 7px #333333;
+	webkit-box-shadow: 7px 7px 7px #333333;
+}
+
+
+
+h2 {
+	background-color: #CCCCCC;
+    border-radius: 10px;
+	color: #800000;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	text-indent: 10px;
+}
+
+
+
+/* List styles */
+ul {
+	list-style-position: inside;
+}
+
+
+
+/* Link styles */
+a:link {
+	color: orange;
+}
+
+a:visited {
+	color: orange;
+}
+
+
+
+/* List styles for education */
+p.school {
+    font-weight: bold;
+	list-style: none;
+	list-style-position: inside;
+}
+
+
+
+/* Paragraph line spacing */
+p {
+	line-height: 50%;
+}
